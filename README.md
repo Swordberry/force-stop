@@ -2,6 +2,9 @@
 
 A tiny Android / Fire TV utility for clearing background app clutter with one press. It keeps the interface deliberately plain: a black screen with a white stop hand, no panels, and short toast feedback.
 
+> [!WARNING]
+> **Requires a rooted Fire Stick with Magisk.** Force Stop runs `am force-stop` through `su` and needs Magisk to grant root access to `com.local.forcestop`. Without root, the app will not force-stop anything — it is not a general-purpose app killer for unrooted devices.
+
 ## Behavior
 
 - Force-stops running user-installed apps in the background.
